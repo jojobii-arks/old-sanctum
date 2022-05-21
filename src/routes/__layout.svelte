@@ -50,6 +50,9 @@
 				</div>
 			</div>
 		</div>
+		<!-- ------------------ -->
+		<!-- ! SLOT HERE ------ -->
+		<!-- ------------------ -->
 		<slot />
 	</div>
 	<div class="drawer-side">
@@ -61,13 +64,3 @@
 		</div>
 	</div>
 </div>
-
-<style>
-	/* :root::-webkit-scrollbar {
-		@apply w-2 bg-base-300;
-	}
-
-	:root::-webkit-scrollbar-thumb {
-		@apply hover rounded-badge bg-primary hover:bg-primary-focus;
-	} */
-</style>

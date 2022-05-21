@@ -43,7 +43,7 @@ class Effect {
 						sign = '+';
 						break;
 					case -1:
-						sign = '-';
+						sign = '';
 						break;
 					case 0:
 						sign = '';
@@ -85,8 +85,8 @@ class Augment {
 // prettier-ignore
 const ngs_fx = {
 	pot_melee: new EffectType('Melee Potency %', '%', 'potency', icon.pot_melee),
-	pot_ranged: new EffectType('Melee Potency %', '%', 'potency', icon.pot_ranged),
-	pot_technique: new EffectType('Melee Potency %', '%', 'potency', icon.pot_technique),
+	pot_ranged: new EffectType('Ranged Potency %', '%', 'potency', icon.pot_ranged),
+	pot_technique: new EffectType('Technique Potency %', '%', 'potency', icon.pot_technique),
 	ailment_res_all: new EffectType('All Resist %', '%', 'ailment', icon.ailment_all),
 	ailment_res_blind: new EffectType('Blind Resist %', '%', 'ailment', icon.ailment_blind),
 	ailment_res_burn: new EffectType('Burn Resist %', '%', 'ailment', icon.ailment_burn),
