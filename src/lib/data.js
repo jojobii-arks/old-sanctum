@@ -1,5 +1,11 @@
 /* eslint-disable no-unused-vars */
 import icon from './icons-catalog.json';
+import { assets } from '$app/paths';
+if (assets) {
+	for (let path in icon) {
+		icon[path] = assets + icon[path];
+	}
+}
 
 class EffectType {
 	/**
@@ -135,7 +141,5 @@ function buildAugmentDB() {
 }
 
 const data = buildAugmentDB();
-
-console.log(data);
 
 export default data;

@@ -13,7 +13,10 @@
 					<div class="flex flex-wrap gap-2">
 						{#each augment.effects as effect}
 							<div class="badge badge-xs badge-ghost h-fit gap-2 px-3 py-2">
-								<img src={effect.effectType.icon} />
+								<img
+									src={effect.effectType.icon}
+									alt={effect.effectType.name}
+								/>
 								<div class="">{effect.formattedValue}</div>
 							</div>
 						{/each}
