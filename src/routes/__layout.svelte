@@ -37,12 +37,15 @@
 					<a
 						href={path_index}
 						class="btn btn-ghost
-					 text-3xl font-extrabold normal-case italic text-primary">Daisy UI Testing</a
+					 text-3xl font-extrabold normal-case italic text-primary"
+						>ARKS Sanctum / Gear Planner</a
 					>
 				</div>
 				<div class="hidden flex-none md:block">
 					<ul class="flex">
-						<li><a class="btn btn-ghost" href={path_layout_guide}>Layout Guide</a></li>
+						<li>
+							<a class="btn btn-ghost" href={path_layout_guide}>Layout Guide</a>
+						</li>
 					</ul>
 				</div>
 			</div>
@@ -52,7 +55,9 @@
 	<div class="drawer-side">
 		<label for="my-drawer-3" class="drawer-overlay" />
 		<div class="w-80 overflow-y-auto bg-base-300 p-4 uppercase">
-			<a class="btn btn-ghost btn-block" href={path_layout_guide}>Layout Guide</a>
+			<a class="btn btn-ghost btn-block" href={path_layout_guide}
+				>Layout Guide</a
+			>
 		</div>
 	</div>
 </div>

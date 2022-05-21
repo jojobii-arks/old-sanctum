@@ -1,4 +1,3 @@
 <script>
-	import data from '$lib/data';
-	console.log(data);
+	import data from '$lib/data.js';
 </script>
