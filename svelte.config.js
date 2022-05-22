@@ -6,6 +6,7 @@ import adapter from '@sveltejs/adapter-static';
 const yourRepoName = 'verbose-octo-invention';
 const dev = process.env.NODE_ENV === 'development';
 
+/** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
 		adapter: adapter({
@@ -14,7 +15,7 @@ const config = {
 			fallback: 'index.html'
 		}),
 		prerender: {
-			default: false
+			default: true
 		},
 		paths: {
 			base: dev ? '' : '/' + yourRepoName
