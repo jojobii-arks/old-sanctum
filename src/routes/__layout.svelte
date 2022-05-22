@@ -3,13 +3,21 @@
 	import '../app.css';
 	import { base } from '$app/paths';
 
-	let root = base;
-	if (!root) {
-		root = '';
+	const path_index = `${base}/`;
+	const path_layout_guide = `${base}/layout-guide`;
+
+	class Route {
+		constructor(label, fileName) {
+			this.label = label;
+			this.file = `${base}/${fileName}`;
+		}
 	}
 
-	const path_index = `${root}/`;
-	const path_layout_guide = `${root}/layout-guide`;
+	const routeHome = new Route('ARKS Sanctum', '');
+	const routes = [
+		new Route(`Mille's Resources`, 'mille-marteaux'),
+		new Route('Augments', 'augments')
+	];
 </script>
 
 <div class="drawer">
@@ -35,17 +43,18 @@
 				</div>
 				<div class="flex-1">
 					<a
-						href={path_index}
+						href={routeHome.file}
 						class="btn btn-ghost
-					 text-3xl font-extrabold normal-case italic text-primary"
-						>ARKS Sanctum / Gear Planner</a
+					 text-3xl font-extrabold normal-case italic text-primary">{routeHome.label}</a
 					>
 				</div>
 				<div class="hidden flex-none md:block">
 					<ul class="flex">
-						<li>
-							<a class="btn btn-ghost" href={path_layout_guide}>Layout Guide</a>
-						</li>
+						{#each routes as route}
+							<li>
+								<a class="btn btn-ghost" href={route.file}>{route.label}</a>
+							</li>
+						{/each}
 					</ul>
 				</div>
 			</div>
@@ -58,9 +67,9 @@
 	<div class="drawer-side">
 		<label for="my-drawer-3" class="drawer-overlay" />
 		<div class="w-80 overflow-y-auto bg-base-300 p-4 uppercase">
-			<a class="btn btn-ghost btn-block" href={path_layout_guide}
-				>Layout Guide</a
-			>
+			{#each routes as route}
+				<a class="btn btn-ghost btn-block" href={route.file}>route.label</a>
+			{/each}
 		</div>
 	</div>
 </div>
