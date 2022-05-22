@@ -3,7 +3,7 @@ import adapter from '@sveltejs/adapter-static';
 
 // ? Make sure to edit this!
 
-const yourRepoName = 'verbose-octo-invention';
+const yourRepoName = 'arks-sanctum';
 const dev = process.env.NODE_ENV === 'development';
 
 /** @type {import('@sveltejs/kit').Config} */
