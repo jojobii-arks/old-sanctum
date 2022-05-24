@@ -20,6 +20,11 @@
 	];
 </script>
 
+<svelte:head>
+	<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+	<link rel="icon" type="image/png" href="favicon.png" />
+</svelte:head>
+
 <div class="drawer">
 	<input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
 	<div class="drawer-content flex flex-col">
