@@ -7,7 +7,7 @@
 		"package": "svelte-kit package",
 		"preview": "svelte-kit preview",
 		"prepare": "svelte-kit sync",
-		"deploy": "svelte-kit build && touch build/.nojekyll && echo 'arks-sanctum.com' > ./build/CNAME && gh-pages -d build -t true",
+		"deploy": "svelte-kit build && touch build/.nojekyll && echo arks-sanctum.com > ./build/CNAME && gh-pages -d build -t true",
 		"watch": "nodemon data.js"
 	},
 	"devDependencies": {

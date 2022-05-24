@@ -1,11 +1,6 @@
 import preprocess from 'svelte-preprocess';
 import adapter from '@sveltejs/adapter-static';
 
-// ? Make sure to edit this!
-
-const yourRepoName = 'arks-sanctum';
-const dev = process.env.NODE_ENV === 'development';
-
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
@@ -16,9 +11,6 @@ const config = {
 		}),
 		prerender: {
 			default: true
-		},
-		paths: {
-			base: dev ? '' : '/' + yourRepoName
 		}
 	},
 	preprocess: [
