@@ -72,7 +72,7 @@
 		<label for="my-drawer-3" class="drawer-overlay" />
 		<div class="w-80 overflow-y-auto bg-base-300 p-4 uppercase">
 			{#each routes as route}
-				<a class="btn btn-ghost btn-block" href={route.file}>route.label</a>
+				<a class="btn btn-ghost btn-block" href={route.file}>{route.label}</a>
 			{/each}
 		</div>
 	</div>
