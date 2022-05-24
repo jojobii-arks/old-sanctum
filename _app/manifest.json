@@ -1,10 +1,10 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-1374dd88.js",
+    "file": "start-940fd408.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
-      "_index-74d046d8.js",
+      "_index-ebac393b.js",
       "_paths-396f020f.js"
     ],
     "dynamicImports": [
@@ -16,12 +16,12 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-0a125224.js",
+    "file": "pages/__layout.svelte-221f6e45.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-74d046d8.js",
+      "_index-ebac393b.js",
       "_paths-396f020f.js"
     ],
     "css": [
@@ -29,44 +29,44 @@
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
-    "file": "error.svelte-8df0ee97.js",
+    "file": "error.svelte-c2ad1155.js",
     "src": ".svelte-kit/runtime/components/error.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-74d046d8.js"
+      "_index-ebac393b.js"
     ]
   },
   "src/routes/augments.svelte": {
-    "file": "pages/augments.svelte-669cff43.js",
+    "file": "pages/augments.svelte-8dbba3c6.js",
     "src": "src/routes/augments.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-74d046d8.js",
+      "_index-ebac393b.js",
       "_paths-396f020f.js"
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-da804690.js",
+    "file": "pages/index.svelte-689891c9.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-74d046d8.js"
+      "_index-ebac393b.js"
     ]
   },
   "src/routes/mille-marteaux.svelte": {
-    "file": "pages/mille-marteaux.svelte-9d1561b9.js",
+    "file": "pages/mille-marteaux.svelte-c383910c.js",
     "src": "src/routes/mille-marteaux.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-74d046d8.js"
+      "_index-ebac393b.js"
     ]
   },
-  "_index-74d046d8.js": {
-    "file": "chunks/index-74d046d8.js"
+  "_index-ebac393b.js": {
+    "file": "chunks/index-ebac393b.js"
   },
   "_paths-396f020f.js": {
     "file": "chunks/paths-396f020f.js"
